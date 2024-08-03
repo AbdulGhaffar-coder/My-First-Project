@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="StyleCars.css">
+</head>
+
+<body>
+    <header> 
+        <nav>
+            <a class="logo"> <img src="data:image/png;base64,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" alt=" logo"></a>
+          <a  id="poem">  <input type="text" placeholder="Search..."> </a>
+            
+                <a href="./index.html">Home</a>
+               
+                <a href="#">Login</a>
+                <hr>
+                <div id="dive2">
+                     <a ><select> <option> <b> All categories</b> </option>
+                        <option> Electronics </option>
+                        <option> Cars </option>
+                        
+                        <option> Property for sell </option>
+                        <option> Fashion </option>
+
+                        </select>
+                    </a>
+                     
+                    <a href="./Cars.html"> Cars </a>
+                    <a href="./Fashion.html"> Fashion </a>
+                    <a href="./Property.html"> Property for sale </a>
+                    <a href="./Electronics.html"> Electronics </a>
+                </div>
+                </nav>
+               
+        
+    </header>
+<br><br><br>
+
+<div class="poster">
+    <img src="https://tpc.googlesyndication.com/simgad/8416063658220167911" alt="images">
+</div>
+
+<br><br><br>
+<h1 style="color: white;"> Cars Category</h1>
+
+<div class="car1"> 
+    <img src="https://images.olx.com.pk/thumbnails/472494043-240x180.webp" alt="Car image">
+    <div class="heading"> 
+        <h1>Rs 2,600,000</h1> 
+        <h3 style="text-align: center;">Honda Civic VTi Oriel Prosmatec 2009</h3>
+        <p style="font-size: 14px;"> .2009. Full options Merallic Gold color.212k Milage. <br>perfect Engin,Brilliant body... </p>
+   <br>
+   <hr>
+   <p style="text-align: center;"><b> Model: 2009   
+    <br> Usage:212,000 KM      </b>   <br><br><br> 
+    🏠 Adress: Karachi,Pak </p>
+<div class="buttons">
+    <button class="call-button">📞 Call</button>
+    <button class="sms-button">📩 SMS</button>
+</div>
+   
+    </div>
+</div>
+
+<br><br><br>
+
+<div class="car1"> 
+    <img src="https://images.olx.com.pk/thumbnails/473554687-800x600.webp" alt="Car image">
+    <div class="heading"> 
+        <h1>Rs 5,000,000</h1> 
+        <h3 style="text-align: center;">Toyota Corolla GLI 2018/19
+        </h3>
+        <p style="font-size: 14px;"> .2018/2019 . Full options White color.95 k Milage. <br>perfect Engin,Brilliant body... </p>
+   <br><br><br>
+   <hr>
+   <p style="text-align: center;"><b> Model: 2009   
+    <br> Usage:95,000 KM       </b>  <br><br><br> 
+    🏠 Adress: Sukkur,Pak  </p>
+    <div class="buttons">
+        <button class="call-button">📞 Call</button>
+        <button class="sms-button">📩 SMS</button>
+    </div>
+   
+    </div>
+</div>
+<br>
+
+<div class="car1"> 
+    <img src="https://images.olx.com.pk/thumbnails/473595354-800x600.webp" alt="Car image">
+    <div class="heading"> 
+        <h1>Rs 7,000,000</h1> 
+        <h3 style="text-align: center;">TSuzuki Cultus VXL 2015
+        </h3>
+        <p style="font-size: 14px;"> .2015. Full options brown color.10 k Milage. perfect <br>Engin, Brilliant body... </p>
+   <br>
+   <hr>
+   <p style="text-align: center;"><b> Model: 2015   
+    <br> Usage:10,000 KM       </b>  <br><br><br> 
+    🏠Adress: Hyderabad,Pak  </p>
+    <div class="buttons">
+        <button class="call-button">📞 Call</button>
+        <button class="sms-button">📩 SMS</button>
+    </div>
+   
+    </div>
+</div>
+<br><br><div class="car1"> 
+    <img src="https://images.olx.com.pk/thumbnails/470752609-800x600.webp" alt="Car image">
+    <div class="heading"> 
+        <h1>Rs 1,000,000</h1> 
+        <h3 style="text-align: center;">Honda City IVTEC 2020
+        </h3>
+        <p style="font-size: 14px;"> .2020. Full options Greay color.30k kM Milage. perfect <br>Engin, Brilliant body... </p>
+   <br>
+   <hr>
+   <p style="text-align: center;"><b> Model: 2020   
+    <br> Usage:30,000 KM       </b>  <br><br><br> 
+    🏠 Adress: Sukkur,Pak  </p>
+
+    <div class="buttons">
+        <button class="call-button">📞 Call</button>
+        <button class="sms-button">📩 SMS</button>
+    </div>
+   
+    </div>
+    </div>
+    <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+       
+        <table> 
+            <tr>
+            <th >POPULAR CATEGORIES</th>
+            <td></td>
+            <td></td><td></td>
+            
+            <th> TRENDING SEARCHES</th>
+            <th></td><td></td><td></th>
+            
+            <th>ABOUT US
+            </th>
+            <td></td><td></td><td></td><th></td><td></td><td></th>
+            <th>OLX</th>
+            
+            
+           
+        </tr>
+        <tr> 
+            <td > Houses</td><td></td><td></td>
+            <td></td>
+            <td> Electronics</td><td></td><td></td>
+            <td></td>
+            <td> About Dubzzil Group </td>
+            <td></td><td></td><td></td><th></td><td></td><td></th>
+        <td>Help </td>
+            
+        </tr>
+        <tr> 
+            <td> Fashion</td><td></td><td></td>
+            <td></td>
+            <td>Toys </td><td></td><td></td>
+            <td></td>
+            <td> OlX Blogs</td>
+            <td></td><td></td><td></td><th></td><td></td><td></th>
+                <td> Privacy of Policy</td>
+            
+        </tr>
+        <tr> 
+            <td> Electronics</td><td></td><td></td>
+            <td></td>
+            <td> Furniture </td><td></td><td></td>
+            <td></td>
+            <td> Contact Us </td>
+            <td></td><td></td><td></td><th></td><td></td><td></th>
+                <td> Sitemap </td>
+            
+        </tr>
+    </tr>
+    <tr> 
+        <td> Pets</td><td></td><td></td>
+        <td></td>
+        <td> Cloths</td><td></td><td></td>
+        <td></td>
+        <td> OlX Businesess</td>
+        <td></td><td></td><td></td><th></td><td></td><td></th>
+            <td> Terms of use </td>
+        
+    </tr>
+</tr>
+<tr> 
+    <td> Cars</td><td></td><td></td>
+    <td></td>
+    <td> Mobile Phones</td><td></td><td></td>
+    <td></td>
+    <td> </td>
+    <td></td><td></td><td></td><th></td><td></td><td></th>
+        <td> Privacy of Policy</td>
+    
+</tr>
+    </table>
+    </footer>
+</body>
+</html>

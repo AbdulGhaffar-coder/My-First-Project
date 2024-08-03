@@ -1,0 +1,131 @@
+img{
+    width: 70px
+    px;
+    height: 70px;
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+a{
+  padding-left: 95px;
+  padding-top: 30px;
+  color: white;
+  text-decoration: none;
+}
+nav{
+  background-color: black;
+  height: 150px;}
+
+  .poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+  }
+    .car1 {
+    display: flex;
+    border: 1px solid yellowgreen;
+    border-radius: 4px; /* Corrected to include px */
+    max-width: 6px;
+    font-size: 14px;
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px; /* Added padding for better spacing */
+    margin-left: 210px;
+    background-color: white;
+}
+
+.car1 img {
+    width: 250px;
+    height: 300px;
+    margin-right: 10px; /* Added margin for spacing between image and text */
+}
+
+.heading h1, .heading h3 {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.heading h1 {
+    color: rgb(62, 62, 143);
+}
+
+.heading h3 {
+    padding-top: 5px; /* Add spacing between heading and paragraph */
+}
+ .call-button{
+    margin-left: 80px;
+}
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style-type: style none;;
+    padding: 0;
+    display: block;
+    justify-content: center;
+}
+
+footer ul li th {
+
+    margin-left:  10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer td{
+    color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+table{
+    padding-left: 140px;
+    
+}
+h1{
+    color: cadetblue;
+    text-align: center;
+    
+    
+    
+}
+footer th{
+    color: yellow;
+}

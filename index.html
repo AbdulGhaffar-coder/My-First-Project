@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <a class="logo"> <img src="data:image/png;base64,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" alt=" logo"></a>
+          <a  id="poem">  <input type="text" placeholder="Search..."> </a>
+            
+                <a href="./index.html">Home</a>
+               
+                <a href="#">Login</a>
+                <hr>
+                <div id="dive2">
+                     <a ><select> <option> <b> All categories</b> </option>
+                        <option> Electronics </option>
+                        <option> Cars </option>
+                        <option> Fashion </option>
+                        <option> Property for sale </option>
+                        
+
+                        </select>
+                    
+                     
+                     <a href="./Cars.html"> Cars </a>
+                     <a href="./Fashion.html"> Fashion </a>
+                     <a href="./Property.html"> Property for sale </a>
+                     <a href="./Electronics.html"> Electronics </a>
+                </div>
+                </nav>
+               
+        
+    </header>
+    
+    <br><br>
+    <div class="poster">
+        <img src="https://images.olx.com.pk/thumbnails/461235937-800x600.webp" alt="images">
+    </div>
+<br><br>
+    <div class="img1">
+        
+            <img src="https://tpc.googlesyndication.com/simgad/11856284467183870715" alt="images">
+        </div>
+    
+
+         <section>
+        
+        <section class="categories">
+            <h2 style="color: white;">All categories</h2>
+            <div class="category-row">
+                <div class="category">
+                    <a href="./Cars.html">  <img src="https://www.olx.com.pk/assets/vehicles.29fb808d5118f0db56f68a39ce5392e2.png" alt="Category 1">
+                    <p style="color: white;"> Cars </p> </a>
+                </div>
+                <div class="category">
+                    <a href="./Electronics.html">
+                    <img src="https://www.olx.com.pk/assets/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png" alt="Category 2">
+                    <p style="color: white;">Electronics</p> </a>
+                </div>
+                <div class="category">
+                    <a href="./Furniture.html">
+                    <img src="https://www.olx.com.pk/assets/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png" alt="Category 3">
+                    <p style="color: white;">Furniture</p> </a>
+                </div>
+                <div class="category">
+                    <a href="./Fashion.html">
+                    <img src="https://www.olx.com.pk/assets/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png" alt="Category 4">
+                    <p style="color: white;">Fashion</p> </a>
+                </div>
+            </div>
+            <div class="category-row">
+                <div class="category">
+                    <a href="./Property.html">
+                    <img src="https://www.olx.com.pk/assets/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png" alt="Category 5">
+                    <p style="color: white;">Property for sell</p> </a>
+                </div>
+                <div class="category">
+                    <a href="./Services.html">
+                    <img src="https://www.olx.com.pk/assets/services.dc6aef196c0403dc61b0ee813f66fa5b.png" alt="Category 6">
+                    <p style="color: white;">Services</p> </a>
+                </div>
+                <div class="category">
+                    <a href="./Jobs.html">
+                    <img src="https://www.olx.com.pk/assets/jobs.79e6136dda02111cf8e7afe26b9e0f93.png" alt="Category 7">
+                    <p style="color: white;">Jobs</p> </a>
+                </div>
+                <div class="category">
+                    <a href="./Pets.html">
+                    <img src="https://www.olx.com.pk/assets/animals.62d396e85f7523dbc8ff23889fdd5c31.png" alt="Category 8">
+                    <p style="color: white;">Pets</p> </a>
+                </div>
+            </section>
+
+            <br><br><br>
+
+             
+            <br>
+            <h1 style="text-align: center; color: white;">Cars Category</h1>
+            <div class="Main">
+                <div class="item-box">
+                    <img src="https://images.olx.com.pk/thumbnails/465485110-240x180.webp" alt="Suzuki Alto">
+                    <div class="item-details">
+                        <h3>Suzuki Alto Japanese 2020 </h3>
+                        <p class="price">$50,000</p>
+                        <p class="mileage">50,000 km</p>
+                        <p class="location">Lahore, Pakistan</p>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+                <div class="item-box">
+                    <img src="https://images.olx.com.pk/thumbnails/473123413-800x600.webp" alt="Suzuki Alto Vxr 2020">
+                    <div class="item-details">
+                        <h3>Suzuki Alto Vxr 2020</h3>
+                        <p class="price">$30,000</p>
+                        <p class="mileage">50,000 km</p>
+                        <p class="location">Hyderabad, Pakistan</p>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+                <div class="item-box">
+                    <img src="https://images.olx.com.pk/thumbnails/473246720-800x600.webp" alt="Suzuki Alto Vxr 2020">
+                    <div class="item-details">
+                        <h3>Suzuki Wagon R 2019</h3>
+                        <p class="price">$30,000</p>
+                        <p class="mileage">50,000 km</p>
+                        <p class="location">Karachi, Pakistan</p>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+            </div>
+            <h1 style="color: white;" >Mobile phone Category</h1>
+
+            <div class="Main">
+                <div class="item-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHv6ortBTpl-8ehJCyC0VzENPBbxQ_eFxjyQ&s" alt="Infinix">
+                    <div class="item-details">
+                        <h3>Infinix hot 40i
+                        </h3>
+                        <p class="price">Rs.30,000</p>
+                        
+                        <p class="location">Canal Colony, Lahore
+                        </p>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+                <div class="item-box">
+                    <img src="data:image/jpeg;base64,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" alt="Infinix">
+                    <div class="item-details">
+                        <h3>Infinx Hot 11
+                        </h3>
+                        <p class="price">$33,000</p>
+                        
+                        <p class="location">Sukkur, Pakistan</p>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+                <div class="item-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3_7Z_2eBn0PZioTI9JfgvI80PjQ7MIXBbQ&s" alt="Suzuki Alto Vxr 2020">
+                    <div class="item-details">
+                        <h3>Infix Hot 40i</h3>
+                        <p class="price">$35,000</p>
+                        
+                        <p class="location">Gambat, Pakistan</p>
+                    </div>
+                    <button class="contact-btn">Contact Seller</button>
+                </div>
+            </div>
+            <br><br><br>
+            <footer>
+       
+                <table> 
+                    <tr>
+                    <th >POPULAR CATEGORIES</th>
+                    <td></td>
+                    <td></td><td></td>
+                    
+                    <th> TRENDING SEARCHES</th>
+                    <th></td><td></td><td></th>
+                    
+                    <th>ABOUT US
+                    </th>
+                    <td></td><td></td><td></td><th></td><td></td><td></th>
+                    <th>OLX</th>
+                    
+                    
+                   
+                </tr>
+                <tr> 
+                    <td > Houses</td><td></td><td></td>
+                    <td></td>
+                    <td> Electronics</td><td></td><td></td>
+                    <td></td>
+                    <td> About Dubzzil Group </td>
+                    <td></td><td></td><td></td><th></td><td></td><td></th>
+                <td>Help </td>
+                    
+                </tr>
+                <tr> 
+                    <td> Fashion</td><td></td><td></td>
+                    <td></td>
+                    <td>Toys </td><td></td><td></td>
+                    <td></td>
+                    <td> OlX Blogs</td>
+                    <td></td><td></td><td></td><th></td><td></td><td></th>
+                        <td> Privacy of Policy</td>
+                    
+                </tr>
+                <tr> 
+                    <td> Electronics</td><td></td><td></td>
+                    <td></td>
+                    <td> Furniture </td><td></td><td></td>
+                    <td></td>
+                    <td> Contact Us </td>
+                    <td></td><td></td><td></td><th></td><td></td><td></td>
+                        <td> Sitemap </td>
+                    
+                </tr>
+            
+            <tr> 
+                <td> Pets</td><td></td><td></td>
+                <td></td>
+                <td> Cloths</td><td></td><td></td>
+                <td></td>
+                <td> OlX Businesess</td>
+                <td></td><td></td><td></td><td></td><td></td><td></th>
+                    <td> Terms of use </td>
+                
+            </tr>
+        
+        <tr> 
+            <td> Cars</td><td></td><td></td>
+            <td></td>
+            <td> Mobile Phones</td><td></td><td></td>
+            <td></td>
+            <td> </td>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+                <td> Privacy of Policy</td>
+            
+        </tr>
+            </table>
+            </footer>
+</body>
+</html>
